@@ -3,12 +3,12 @@
     "example" : {
       "items" : [
         {
-          "name" : "FRIED CHICKEN FINGER & FRIES",
-          "id" : "fried_chicken_finger_fries",
           "price" : {
-            "regular" : 13.74
+            "regular" : 13.75
           },
-          "image" : ""
+          "image" : "",
+          "id" : "fried_chicken_finger_fries",
+          "name" : "FRIED CHICKEN FINGER & FRIES"
         }
       ],
       "displayName" : "Example"
