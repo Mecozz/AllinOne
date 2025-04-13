@@ -1,45 +1,207 @@
 {
   "categories" : {
-    "side_orders" : {
+    "salads" : {
+      "items" : [
+        {
+          "price" : {
+            "regular" : 9
+          },
+          "id" : "tossed_salad",
+          "image" : "",
+          "name" : "TOSSED SALAD"
+        },
+        {
+          "id" : "antipasto_salad",
+          "image" : "",
+          "price" : {
+            "regular" : 13
+          },
+          "name" : "ANTIPASTO SALAD"
+        },
+        {
+          "image" : "",
+          "price" : {
+            "regular" : 11
+          },
+          "name" : "GREEK SALAD",
+          "id" : "greek_salad"
+        },
+        {
+          "image" : "",
+          "name" : "CHEF'S SALAD",
+          "price" : {
+            "regular" : 11
+          },
+          "id" : "chef_s_salad"
+        },
+        {
+          "price" : {
+            "regular" : 11
+          },
+          "id" : "tuna_salad",
+          "image" : "",
+          "name" : "TUNA SALAD"
+        },
+        {
+          "name" : "TURKEY SALAD",
+          "id" : "turkey_salad",
+          "price" : {
+            "regular" : 11
+          },
+          "image" : ""
+        },
+        {
+          "name" : "CHICKEN SALAD",
+          "price" : {
+            "regular" : 11
+          },
+          "id" : "chicken_salad",
+          "image" : ""
+        },
+        {
+          "id" : "buffalo_chicken_salad",
+          "image" : "",
+          "price" : {
+            "regular" : 11
+          },
+          "name" : "BUFFALO CHICKEN SALAD"
+        },
+        {
+          "name" : "GRILLED CHICKEN SALAD",
+          "id" : "grilled_chicken_salad",
+          "price" : {
+            "regular" : 11
+          },
+          "image" : ""
+        },
+        {
+          "id" : "lamb_or_steak_salad",
+          "image" : "",
+          "name" : "LAMB OR STEAK SALAD",
+          "price" : {
+            "regular" : 13
+          }
+        }
+      ],
+      "displayName" : "SALADS"
+    },
+    "steak_subs" : {
+      "displayName" : "STEAK SUBS",
       "items" : [
         {
           "image" : "",
-          "name" : "BAKLAVA",
+          "price" : {
+            "large" : 13,
+            "regular" : 11
+          },
+          "id" : "cheese_steak",
+          "name" : "CHEESE STEAK"
+        },
+        {
+          "id" : "pepper_steak",
+          "image" : "",
+          "price" : {
+            "large" : 13.75,
+            "regular" : 11.75
+          },
+          "name" : "PEPPER STEAK"
+        },
+        {
+          "id" : "onion_steak",
+          "price" : {
+            "regular" : 11.75,
+            "large" : 13.75
+          },
+          "image" : "",
+          "name" : "ONION STEAK"
+        },
+        {
+          "id" : "mushroom_steak",
+          "price" : {
+            "regular" : 11.75,
+            "large" : 13.75
+          },
+          "image" : "",
+          "name" : "MUSHROOM STEAK"
+        },
+        {
+          "image" : "",
+          "name" : "2 ITEMS",
+          "price" : {
+            "large" : 14.75,
+            "regular" : 13
+          },
+          "id" : "2_items"
+        },
+        {
+          "image" : "",
+          "id" : "3_items",
+          "name" : "3 ITEMS",
+          "price" : {
+            "large" : 14.75,
+            "regular" : 13
+          }
+        },
+        {
+          "id" : "special_steak",
+          "price" : {
+            "regular" : 13,
+            "large" : 14.75
+          },
+          "name" : "SPECIAL STEAK",
+          "image" : ""
+        },
+        {
+          "id" : "extra_cheese",
+          "price" : {
+            "regular" : 2,
+            "large" : 2.5
+          },
+          "image" : "",
+          "name" : "EXTRA CHEESE"
+        },
+        {
+          "price" : {
+            "regular" : 3.5,
+            "large" : 5
+          },
+          "image" : "",
+          "name" : "EXTRA STEAK",
+          "id" : "extra_steak"
+        }
+      ]
+    },
+    "side_orders" : {
+      "items" : [
+        {
           "id" : "baklava",
+          "name" : "BAKLAVA",
+          "image" : "",
           "price" : {
             "large" : 3.75
           }
         },
         {
           "name" : "GARLIC BREAD-PLAIN",
-          "price" : {
-            "large" : 4.5,
-            "small" : 4.5
-          },
-          "id" : "garlic_bread_plain",
-          "image" : ""
-        },
-        {
           "image" : "",
           "price" : {
-            "small" : 5,
-            "large" : 5.75
+            "small" : 4.5,
+            "large" : 4.5
           },
-          "name" : "W\/CHEESE",
-          "id" : "w_cheese"
+          "id" : "garlic_bread_plain"
         },
         {
+          "price" : {
+            "large" : 5.75,
+            "small" : 5
+          },
           "image" : "",
+          "id" : "w_cheese",
+          "name" : "W\/CHEESE"
+        },
+        {
           "id" : "french_fries",
           "name" : "FRENCH FRIES",
-          "price" : {
-            "small" : 5,
-            "large" : 7
-          }
-        },
-        {
-          "name" : "ONION RINGS",
-          "id" : "onion_rings",
           "image" : "",
           "price" : {
             "large" : 7,
@@ -47,73 +209,82 @@
           }
         },
         {
+          "id" : "onion_rings",
+          "price" : {
+            "small" : 5,
+            "large" : 7
+          },
+          "image" : "",
+          "name" : "ONION RINGS"
+        },
+        {
+          "id" : "rice_pilaf",
           "name" : "RICE PILAF",
           "price" : {
             "large" : 6.75
           },
-          "image" : "",
-          "id" : "rice_pilaf"
-        },
-        {
-          "price" : {
-            "large" : 9.75
-          },
-          "image" : "",
-          "name" : "GREEK PITA",
-          "id" : "greek_pita"
-        },
-        {
-          "image" : "",
-          "price" : {
-            "large" : 9.75
-          },
-          "name" : "FRIED MUSHROOMS",
-          "id" : "fried_mushrooms"
-        },
-        {
-          "price" : {
-            "large" : 9.75
-          },
-          "image" : "",
-          "id" : "mozzarella_sticks",
-          "name" : "MOZZARELLA STICKS"
-        },
-        {
-          "id" : "chicken_wings",
-          "name" : "CHICKEN WINGS",
-          "price" : {
-            "large" : 9.75
-          },
           "image" : ""
+        },
+        {
+          "image" : "",
+          "id" : "greek_pita",
+          "price" : {
+            "large" : 9.75
+          },
+          "name" : "GREEK PITA"
+        },
+        {
+          "price" : {
+            "large" : 9.75
+          },
+          "id" : "fried_mushrooms",
+          "name" : "FRIED MUSHROOMS",
+          "image" : ""
+        },
+        {
+          "image" : "",
+          "price" : {
+            "large" : 9.75
+          },
+          "name" : "MOZZARELLA STICKS",
+          "id" : "mozzarella_sticks"
+        },
+        {
+          "name" : "CHICKEN WINGS",
+          "id" : "chicken_wings",
+          "image" : "",
+          "price" : {
+            "large" : 9.75
+          }
         },
         {
           "name" : "JALAPENO POPPERS",
+          "image" : "",
           "id" : "jalapeno_poppers",
           "price" : {
             "large" : 9.75
-          },
-          "image" : ""
+          }
         },
         {
-          "name" : "CHICKEN TENDERS",
-          "image" : "",
           "price" : {
             "large" : 9.75
           },
+          "name" : "CHICKEN TENDERS",
+          "image" : "",
           "id" : "chicken_tenders"
         },
         {
-          "id" : "buffalo_tenders",
           "image" : "",
+          "id" : "buffalo_tenders",
+          "name" : "BUFFALO TENDERS",
           "price" : {
             "large" : 9.75
-          },
-          "name" : "BUFFALO TENDERS"
+          }
         },
         {
-          "image" : "",
-          "name" : "FRIED RAVIOLI",
           "id" : "fried_ravioli",
+          "name" : "FRIED RAVIOLI",
+          "image" : "",
           "price" : {
             "large" : 9.75
           }
@@ -121,258 +292,87 @@
       ],
       "displayName" : "SIDE ORDERS"
     },
-    "steak_subs" : {
-      "items" : [
-        {
-          "image" : "",
-          "name" : "CHEESE STEAK",
-          "price" : {
-            "large" : 13,
-            "regular" : 11
-          },
-          "id" : "cheese_steak"
-        },
-        {
-          "name" : "PEPPER STEAK",
-          "image" : "",
-          "id" : "pepper_steak",
-          "price" : {
-            "large" : 13.75,
-            "regular" : 11.75
-          }
-        },
-        {
-          "id" : "onion_steak",
-          "image" : "",
-          "name" : "ONION STEAK",
-          "price" : {
-            "large" : 13.75,
-            "regular" : 11.75
-          }
-        },
-        {
-          "image" : "",
-          "name" : "MUSHROOM STEAK",
-          "id" : "mushroom_steak",
-          "price" : {
-            "large" : 13.75,
-            "regular" : 11.75
-          }
-        },
-        {
-          "name" : "2 ITEMS",
-          "price" : {
-            "large" : 14.75,
-            "regular" : 13
-          },
-          "id" : "2_items",
-          "image" : ""
-        },
-        {
-          "price" : {
-            "regular" : 13,
-            "large" : 14.75
-          },
-          "name" : "3 ITEMS",
-          "image" : "",
-          "id" : "3_items"
-        },
-        {
-          "name" : "SPECIAL STEAK",
-          "image" : "",
-          "id" : "special_steak",
-          "price" : {
-            "large" : 14.75,
-            "regular" : 13
-          }
-        },
-        {
-          "name" : "EXTRA CHEESE",
-          "image" : "",
-          "id" : "extra_cheese",
-          "price" : {
-            "large" : 2.5,
-            "regular" : 2
-          }
-        },
-        {
-          "image" : "",
-          "name" : "EXTRA STEAK",
-          "price" : {
-            "regular" : 3.5,
-            "large" : 5
-          },
-          "id" : "extra_steak"
-        }
-      ],
-      "displayName" : "STEAK SUBS"
-    },
-    "salads" : {
+    "dinners" : {
       "items" : [
         {
           "image" : "",
           "price" : {
-            "regular" : 9
+            "regular" : 13.74
           },
-          "id" : "tossed_salad",
-          "name" : "TOSSED SALAD"
+          "name" : "FRIED CHICKEN FINGER & FRIES",
+          "id" : "fried_chicken_finger_fries"
         },
         {
-          "image" : "",
-          "name" : "ANTIPASTO SALAD",
-          "id" : "antipasto_salad",
           "price" : {
-            "regular" : 13
-          }
-        },
-        {
-          "id" : "greek_salad",
-          "image" : "",
-          "name" : "GREEK SALAD",
-          "price" : {
-            "regular" : 11
-          }
-        },
-        {
-          "name" : "CHEF'S SALAD",
-          "price" : {
-            "regular" : 11
+            "regular" : 13.75
           },
-          "id" : "chef_s_salad",
+          "id" : "buffalo_tenders_fries",
+          "image" : "",
+          "name" : "BUFFALO TENDERS & FRIES"
+        },
+        {
+          "price" : {
+            "regular" : 13.75
+          },
+          "id" : "reg_wings_fries",
+          "image" : "",
+          "name" : "REG WINGS & FRIES"
+        },
+        {
+          "name" : "LAMB PLATE W\/GREEK SALAD & FRIES",
+          "id" : "lamb_plate_w_greek_salad_fries",
+          "price" : {
+            "regular" : 23
+          },
           "image" : ""
-        },
-        {
-          "id" : "tuna_salad",
-          "name" : "TUNA SALAD",
-          "image" : "",
-          "price" : {
-            "regular" : 11
-          }
-        },
-        {
-          "image" : "",
-          "id" : "turkey_salad",
-          "name" : "TURKEY SALAD",
-          "price" : {
-            "regular" : 11
-          }
-        },
-        {
-          "name" : "CHICKEN SALAD",
-          "image" : "",
-          "id" : "chicken_salad",
-          "price" : {
-            "regular" : 11
-          }
-        },
-        {
-          "price" : {
-            "regular" : 11
-          },
-          "id" : "buffalo_chicken_salad",
-          "image" : "",
-          "name" : "BUFFALO CHICKEN SALAD"
-        },
-        {
-          "id" : "grilled_chicken_salad",
-          "image" : "",
-          "price" : {
-            "regular" : 11
-          },
-          "name" : "GRILLED CHICKEN SALAD"
-        },
-        {
-          "name" : "LAMB OR STEAK SALAD",
-          "price" : {
-            "regular" : 13
-          },
-          "image" : "",
-          "id" : "lamb_or_steak_salad"
         }
       ],
-      "displayName" : "SALADS"
+      "displayName" : "DINNERS"
     },
     "italian_dishes" : {
-      "displayName" : "ITALIAN DISHES",
       "items" : [
         {
+          "name" : "SPAGHETTI & SAUCE",
           "image" : "",
           "price" : {
             "regular" : 10
           },
-          "id" : "spaghetti_sauce",
-          "name" : "SPAGHETTI & SAUCE"
+          "id" : "spaghetti_sauce"
         },
         {
+          "image" : "",
           "name" : "W\/MEATBALLS",
           "price" : {
             "regular" : 11.75
           },
-          "id" : "w_meatballs",
-          "image" : ""
+          "id" : "w_meatballs"
         },
         {
-          "name" : "W\/SAUSAGE",
-          "image" : "",
           "price" : {
             "regular" : 11.75
           },
+          "image" : "",
+          "name" : "W\/SAUSAGE",
           "id" : "w_sausage"
         },
         {
-          "image" : "",
-          "id" : "combo",
           "name" : "COMBO",
+          "id" : "combo",
+          "image" : "",
           "price" : {
             "regular" : 12.75
           }
         },
         {
+          "id" : "w_chicken_or_veal",
           "name" : "W\/CHICKEN OR VEAL",
           "image" : "",
-          "id" : "w_chicken_or_veal",
           "price" : {
             "regular" : 11.75
           }
         }
-      ]
-    },
-    "dinners" : {
-      "items" : [
-        {
-          "id" : "fried_chicken_finger_fries",
-          "price" : {
-            "regular" : 13.74
-          },
-          "name" : "FRIED CHICKEN FINGER & FRIES",
-          "image" : ""
-        },
-        {
-          "name" : "BUFFALO TENDERS & FRIES",
-          "price" : {
-            "regular" : 13.75
-          },
-          "image" : "",
-          "id" : "buffalo_tenders_fries"
-        },
-        {
-          "id" : "reg_wings_fries",
-          "image" : "",
-          "name" : "REG WINGS & FRIES",
-          "price" : {
-            "regular" : 13.75
-          }
-        },
-        {
-          "price" : {
-            "regular" : 23
-          },
-          "image" : "",
-          "id" : "lamb_plate_w_greek_salad_fries",
-          "name" : "LAMB PLATE W\/GREEK SALAD & FRIES"
-        }
       ],
-      "displayName" : "DINNERS"
+      "displayName" : "ITALIAN DISHES"
     }
   }
 }
