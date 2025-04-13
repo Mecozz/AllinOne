@@ -1,1 +1,17 @@
-{"categories":{"example":{"displayName":"Example","items":[{"image":"","id":"fried_chicken_finger_fries","name":"FRIED CHICKEN FINGER & FRIES","price":{"regular":13.74}}]}}}
+{
+  "categories" : {
+    "example" : {
+      "items" : [
+        {
+          "name" : "FRIED CHICKEN FINGER & FRIES",
+          "id" : "fried_chicken_finger_fries",
+          "price" : {
+            "regular" : 13.74
+          },
+          "image" : ""
+        }
+      ],
+      "displayName" : "Example"
+    }
+  }
+}
