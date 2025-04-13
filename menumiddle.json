@@ -1,129 +1,171 @@
 {
-  "config": {
-    "image_rotation_speed": 10000
-  },
-  "header": {
-    "left_category": "HOT OR COLD SUBS",
-    "right_category": ""
-  },
-  "left_items": [
-    {
-      "name": "MEATBALLS",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "SAUSAGE",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "HAM & CHEESE",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "SALAMI",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "TUNA",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "CHEESEBURGER",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "B.L.T",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "PASTRAMI",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "GYROS",
-      "lg_price": "13.75",
-      "reg_price": "11.75"
-    },
-    {
-      "name": "VEAL PARMESAN",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "CHICKEN PARMESAN",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "VEGETARIAN",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "ROAST BEEF",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "TURKEY",
-      "lg_price": "13.00",
-      "reg_price": "11.00"
-    },
-    {
-      "name": "SAUSAGE & MEATBALLS",
-      "lg_price": "13.75",
-      "reg_price": "11.75"
-    },
-    {
-      "name": "COMBO ITALIAN",
-      "lg_price": "13.75",
-      "reg_price": "11.75"
-    },
-    {
-      "name": "LAMB GRINDER",
-      "lg_price": "13.75",
-      "reg_price": "---"
-    },
-    {
-      "name": "EXTRA CHEESE",
-      "lg_price": "2.50",
-      "reg_price": "2.00"
+  "categories": {
+    "hot_or_cold_subs": {
+      "displayName": "HOT OR COLD SUBS",
+      "items": [
+        {
+          "id": "meatballs_sub",
+          "name": "MEATBALLS",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "sausage_sub",
+          "name": "SAUSAGE",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "ham_cheese_sub",
+          "name": "HAM & CHEESE",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "salami_sub",
+          "name": "SALAMI",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "tuna_sub",
+          "name": "TUNA",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "cheeseburger_sub",
+          "name": "CHEESEBURGER",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "blt_sub",
+          "name": "B.L.T",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "pastrami_sub",
+          "name": "PASTRAMI",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "gyros_sub",
+          "name": "GYROS",
+          "price": {
+            "regular": 11.75,
+            "large": 13.75
+          },
+          "image": ""
+        },
+        {
+          "id": "veal_parmesan_sub",
+          "name": "VEAL PARMESAN",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "chicken_parmesan_sub",
+          "name": "CHICKEN PARMESAN",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "vegetarian_sub",
+          "name": "VEGETARIAN",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "roast_beef_sub",
+          "name": "ROAST BEEF",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "turkey_sub",
+          "name": "TURKEY",
+          "price": {
+            "regular": 11.00,
+            "large": 13.00
+          },
+          "image": ""
+        },
+        {
+          "id": "sausage_meatballs_sub",
+          "name": "SAUSAGE & MEATBALLS",
+          "price": {
+            "regular": 11.75,
+            "large": 13.75
+          },
+          "image": ""
+        },
+        {
+          "id": "combo_italian_sub",
+          "name": "COMBO ITALIAN",
+          "price": {
+            "regular": 11.75,
+            "large": 13.75
+          },
+          "image": ""
+        },
+        {
+          "id": "lamb_grinder_sub",
+          "name": "LAMB GRINDER",
+          "price": {
+            "regular": null,
+            "large": 13.75
+          },
+          "image": ""
+        },
+        {
+          "id": "extra_cheese_sub",
+          "name": "EXTRA CHEESE",
+          "price": {
+            "regular": 2.00,
+            "large": 2.50
+          },
+          "image": ""
+        }
+      ]
     }
-  ],
-  "right_items": [],
-  "images": [
-    [
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YBaconSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YCheesBurgerSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YHamCheeseSub.png"
-    ],
-    [
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YTurkeyCheeseSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YHamCheeseSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YCheesBurgerSub.png"
-    ],
-    [
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/Yero.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YTurkeyCheeseSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YBaconSub.png"
-    ],
-    [
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YHamCheeseSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YBaconSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YTurkeyCheeseSub.png"
-    ],
-    [
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YCheesBurgerSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/YHamCheeseSub.png",
-      "https://raw.githubusercontent.com/Mecozz/Menu/main/Yero.png"
-    ]
-  ]
+  }
 }
