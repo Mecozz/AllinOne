@@ -151,7 +151,6 @@
           "id": "lamb_grinder_sub",
           "name": "LAMB GRINDER",
           "price": {
-            "regular": null,
             "large": 13.75
           },
           "image": ""
