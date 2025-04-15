@@ -1,166 +1,175 @@
 {
+  "title": "JIMMY'S HOUSE OF PIZZA",
+  "header": {
+    "category": "HOT OR COLD SUBS",
+    "note": "* ALL PRICES INCLUDE 9% TAXES *"
+  },
+  "titleImages": {
+    "left": "https://raw.githubusercontent.com/Mecozz/Menu/main/JimmyAnna.png"
+  },
   "categories": {
-    "hot_or_cold_subs": {
-      "displayName": "HOT OR COLD SUBS",
+    "subs": {
+      "name": "Hot or Cold Subs",
       "items": [
         {
           "id": "meatballs_sub",
           "name": "MEATBALLS",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "sausage_sub",
           "name": "SAUSAGE",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "ham_cheese_sub",
           "name": "HAM & CHEESE",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
-          "image": ""
+          "image": "https://raw.githubusercontent.com/Mecozz/Menu/main/YHamCheeseSub.png"
         },
         {
           "id": "salami_sub",
           "name": "SALAMI",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "tuna_sub",
           "name": "TUNA",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "cheeseburger_sub",
           "name": "CHEESEBURGER",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
-          "image": ""
+          "image": "https://raw.githubusercontent.com/Mecozz/Menu/main/YCheesBurgerSub.png"
         },
         {
           "id": "blt_sub",
           "name": "B.L.T",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
-          "image": ""
+          "image": "https://raw.githubusercontent.com/Mecozz/Menu/main/YBaconSub.png"
         },
         {
           "id": "pastrami_sub",
           "name": "PASTRAMI",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "gyros_sub",
           "name": "GYROS",
-          "price": {
-            "regular": 11.75,
-            "large": 13.75
+          "prices": {
+            "large": 13.75,
+            "regular": 11.75
           },
-          "image": ""
+          "image": "https://raw.githubusercontent.com/Mecozz/Menu/main/Yero.png"
         },
         {
           "id": "veal_parmesan_sub",
           "name": "VEAL PARMESAN",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "chicken_parmesan_sub",
           "name": "CHICKEN PARMESAN",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "vegetarian_sub",
           "name": "VEGETARIAN",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "roast_beef_sub",
           "name": "ROAST BEEF",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
           "image": ""
         },
         {
           "id": "turkey_sub",
           "name": "TURKEY",
-          "price": {
-            "regular": 11.00,
-            "large": 13.00
+          "prices": {
+            "large": 13.00,
+            "regular": 11.00
           },
-          "image": ""
+          "image": "https://raw.githubusercontent.com/Mecozz/Menu/main/YTurkeyCheeseSub.png"
         },
         {
           "id": "sausage_meatballs_sub",
           "name": "SAUSAGE & MEATBALLS",
-          "price": {
-            "regular": 11.75,
-            "large": 13.75
+          "prices": {
+            "large": 13.75,
+            "regular": 11.75
           },
           "image": ""
         },
         {
           "id": "combo_italian_sub",
           "name": "COMBO ITALIAN",
-          "price": {
-            "regular": 11.75,
-            "large": 13.75
+          "prices": {
+            "large": 13.75,
+            "regular": 11.75
           },
           "image": ""
         },
         {
           "id": "lamb_grinder_sub",
           "name": "LAMB GRINDER",
-          "price": {
-            "large": 13.75
+          "prices": {
+            "large": 13.75,
+            "regular": null
           },
           "image": ""
         },
         {
           "id": "extra_cheese_sub",
           "name": "EXTRA CHEESE",
-          "price": {
-            "regular": 2.00,
-            "large": 2.50
+          "prices": {
+            "large": 2.50,
+            "regular": 2.00
           },
           "image": ""
         }
